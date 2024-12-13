@@ -1,3 +1,5 @@
+@extends('index')
+@section('conteudo')
 <h1>Cadastro Autores</h1>
 
 <form action="/autores/cadastrar" method="post">
@@ -8,3 +10,4 @@
     <input type="submit" value="Salvar"><br>
 </form>
 <a href="/autores">Voltar</a>
+@endsection
